@@ -34,7 +34,7 @@ const MyForm = () => {
 
           <Form.Item
             label={<span style={{ fontWeight: 'bold', color: 'gold' }}>පදිංචි ප්‍රදේශය?</span>}
-            name="name"
+            name="area"
             rules={[{ required: true, message: '' }]}
           >
             <Input />
@@ -42,7 +42,7 @@ const MyForm = () => {
 
           <Form.Item
             label={<span style={{ fontWeight: 'bold', color: 'gold' }}>ඔබ භාවිතා කරන තේ කොළ වර්ගය කුමක්ද?</span>}
-            name="name"
+            name="tea"
             rules={[{ required: true, message: '' }]}
           >
             <Input />
@@ -50,7 +50,7 @@ const MyForm = () => {
 
           <Form.Item
             label={<span style={{ fontWeight: 'bold', color: 'gold' }}>ඔබ දිනකට පානය කරන තේ කෝප්ප ගණන කීයද?</span>}
-            name="name"
+            name="amount"
             rules={[{ required: true, message: '' }]}
           >
             <Input />
